@@ -1,38 +1,486 @@
-.App {
-  text-align: center;
-}
+@media screen and (max-width: 480px) {
+  body {
+    width: 343px;
+    margin: auto;
+    font-family: "DM Sans", sans-serif;
+  }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  .item1 {
+    height: 290px;
+    background-color: #7551DC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .item1 h1 {
+    width: 279px;
+    font-size: 46px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .tenX {
+    color: #FFCC6A;
+  }
+
+  .fast {
+    font-style: italic;
+  }
+
+  .item1 img {
+    width: 192px;
+    height: 32px;
+    margin-top: -20px;
+  }
+
+  .item1 p {
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 5px;
+  }
+
+  .item2a {
+    height: 162.54px;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item2a img {
+    width: 316.08px;
+    height: 66.54px;
+  }
+
+  .item2a h4 {
+    width: 311px;
+    font-size: 26px;
+    font-weight: 500;
+    color: #121212;
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+
+  .item2b {
+    width: 328px;
+    height: 201.25px;
+    background-color: #FFCC6A;
+    border-radius: 20px;
+    overflow: hidden;
+    padding-left: 15px;
+  }
+
+  .item2b h4{
+    font-size: 26px;
+    font-weight: 500;
+    color: #121212;
+    margin-top: 15px;
+  }
+
+  .item2b img {
+    margin-top: -15px;
+    width: 208px;
+    height: 157px;
+  }
+
+  .item3 {
+    width: 343px;
+    height: 463.91px;
+    background-color: #DBD1FC;
+    border-radius: 20px;
+    margin-top: 25px;
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  .item3 h4 {
+    font-size: 26px;
+    font-weight: 500;
+    color: #121212;
+    margin-top: 15px;
+  }
+
+  .item3 img {
+    width: 308.06px;
+    height: 272.91px;
+    border-radius: 15px;
+    margin-top: -10px;
+  }
+
+  .item3 p {
+    width: 279px;
+    font-size: 18px;
+    color: #121212;
+    margin: auto;
+    margin-top: 15px;
+  }
+
+  .item4 {
+    width: 343px;
+    height: 372.22px;
+    background-color: #7551DC;
+    border-radius: 25px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .item4 img {
+    width: 227.68px;
+    height: 200.22px;
+    margin-top: 50px;
+  }
+
+  .item4 h3 {
+    width: 257px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-top: 5px;
+  }
+
+  .item5 {
+    width: 318px;
+    height: 215.58px;
+    padding-left: 25px;
+  }
+
+  .item5 h1 {
+    font-size: 46px;
+    font-weight: 500;
+    color: #121212;
+  }
+
+  .item5 p {
+    font-size: 18px;
+    color: #121212;
+    margin-top: -20px;
+  }
+
+  .item5 img {
+    width: 178.93px;
+    height: 66.58px;
+  }
+
+  .item6 {
+    width: 323px;
+    height: 234.35px;
+    margin-top: -40px;
+    padding-left: 25px;
+    background-color: #F9EEE2;
+    border-radius: 25px;
+  }
+
+  .item6 h4 {
+    width: 284px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #121212;
+  }
+
+  .item6 span {
+    font-style: italic;
+    color: #7551DC;
+  }
+
+  .item6 img {
+    width: 190.47px;
+    height: 90.35px;
+    margin-top: -20px;
+  }
+
+  .item7 {
+    width: 348px;
+    height: 335.5px;
+    background-color: #FFCC6A;
+    border-radius: 25px;
+    padding-top: 15px;
+  }
+
+  .item7 h4 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #121212;
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+
+  .item7 img {
+    width: 219.95px;
+    height: 222.5px;
+    margin-left: 15px;
+    margin-top: -35px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+@media screen and (max-width:1440px) and (min-width: 481px) {
 
-.App-link {
-  color: #61dafb;
-}
+  body {
+    font-family: "DM Sans", sans-serif;
+  }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .item1 { grid-area: section1; }
+  .item2 { grid-area: section2; }
+  .item3 { grid-area: section3; }
+  .item4 { grid-area: section4; }
+  .item5 { grid-area: section5; }
+  .item6 { grid-area: section6; }
+  .item7 { grid-area: section7; }
+
+  .bento-grid {
+    width: 1056px;
+    display: grid;
+    grid-template-areas: 
+      'section6 section1 section1 section3'
+      'section6 section1 section1 section3'
+      'section6 section1 section1 section3'
+      'section6 section2 section2 section3'
+      'section7 section2 section2 section3'
+      'section7 section2 section2 section3'
+      'section7 section5 section4 section4'
+      'section7 section5 section4 section4'
+    ;
+    gap: 30px;
+    margin: auto;
+    margin-top: 50px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .item6 {
+    width: 256px;
+    height: 415px;
+    background-color: #F9EEE2;
+    border-radius: 25px;
   }
+
+  .item6 h4 {
+    width: 192px;
+    font-size: 40px;
+    font-weight: 500;
+    color: #121212;
+    margin-top: 60px;
+    margin-left: 25px;
+    line-height: 40px;
+  }
+
+  .item6 span {
+    color: #7551DC;
+    font-style: italic;
+  }
+
+  .item6 img {
+    width: 190.47px;
+    height: 67px;
+    margin-left: 25px;
+    margin-top: -10px;
+  }
+
+  .item1 {
+    width: 544px;
+    height: 324px;
+    background-color: #7551DC;
+    border-radius: 25px;
+    text-align: center;
+  }
+
+  .item1 h1 {
+    font-size: 62px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-top: 25px;
+    line-height: 70px;
+  }
+
+  .tenX {
+    color: #FFCC6A;
+  }
+
+  .fast {
+    font-style: italic;
+  }
+
+  .item1 img {
+    width: 192px;
+    height: 32px;
+    margin-top: -5px;
+  }
+
+  .item1 p {
+    font-size: 18px;
+    color: #FFFFFF;
+  }
+
+  .item3 {
+    width: 216px;
+    height: 603px;
+    background-color: #DBD1FC;
+    border-radius: 25px;
+    overflow: hidden;
+    padding-left: 40px;
+  }
+
+  .item3 h4 {
+    width: 192px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #121212;
+  }
+
+  .item3 img {
+    width: 357.3px;
+    height: 318.82px;
+    border-radius: 25px;
+    margin-top: -20px;
+  }
+
+  .item3 p {
+    width: 192px;
+    font-size: 18px;
+    color: #121212;
+  }
+
+  .item7 {
+    width: 256px;
+    height: 434px;
+    background-color: #FFCC6A;
+    border-radius: 25px;
+  }
+
+  .item7 h4 {
+    width: 208px;
+    font-size: 40px;
+    font-weight: 500;
+    color: #121212;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .item7 img {
+    width: 219.95px;
+    height: 222.5px;
+    margin-left: 20px;
+    margin-top: -30px;
+  }
+
+  .item2 {
+    width: 544px;
+    height: 247px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .item2a {
+    width: 256px;
+    height: 247px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+  }
+
+  .item2a img {
+    width: 316.08px;
+    height: 66.54px;
+    margin-top: 15px;
+  }
+
+  .item2a h4 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #121212;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+
+  .item2b {
+    width: 256px;
+    height: 247px;
+    background-color: #FFCC6A;
+    overflow: hidden;
+    border-radius: 25px;
+  }
+
+  .item2b h4 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #121212;
+    margin-top: 15px;
+    margin-left: 15px;
+    line-height: 35px;
+  }
+
+  .item2b img {
+    width: 208px;
+    height: 157px;
+    margin-left: 15px;
+    margin-top: -40px;
+  }
+
+  .item5 {
+    width: 256px;
+    height: 246px;
+    background-color: #FFFFFF;
+  }
+
+  .item5 h1 {
+    font-size: 62px;
+    font-weight: 500;
+    color: #121212;
+    margin-top: -5px;
+  }
+
+  .item5 p {
+    font-size: 18px;
+    color: #121212;
+    margin-top: -30px;
+  }
+
+  .item5 img {
+    width: 178.93px;
+    height: 66.58px;
+  }
+
+  .item4 {
+    width: 544px;
+    height: 246px;
+    background-color: #7551DC;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+  }
+
+  .item4 img {
+    width: 227.68px;
+    height: 200.22px;
+    margin-left: 25px;
+    margin-right: 15px;
+  }
+
+  .item4 h3 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #FFFFFF;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
